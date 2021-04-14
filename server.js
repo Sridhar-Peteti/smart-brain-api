@@ -16,8 +16,8 @@ const image = require('./controllers/image')
     connectionString : 'process.env.DATABASE_URL',
     ssl: {
       rejectUnauthorized: false
-    }
-  }
+    },
+  },
 });
 
 const app = express();
